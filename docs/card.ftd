@@ -1,4 +1,4 @@
--- import: <user_name>.github.io/<repo_name>
+-- import: heulitig.github.io/test-card-1
 -- import: fastn-community.github.io/business-card/docs
 
 ;; how-to-use-card component arguments (with default values) --------------
@@ -21,13 +21,13 @@
 ;; optional string website
 ;; --------------------------------------------------------------------------
 
--- docs.how-to-use-card: <user_name>
-package-name: <repo_name>
-package-full-name: <user_name>.github.io/<repo_name>
-license-url: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
+-- docs.how-to-use-card: heulitig
+package-name: test-card-1
+package-full-name: heulitig.github.io/test-card-1
+license-url: https://github.com/heulitig/test-card-1/blob/main/LICENSE
 title: Software Developer
 phone-no: +123-4567890
-email: <user_name>@xyz.com
+email: heulitig@xyz.com
 address: 123 Anywhere, Any City
-github: https://github.com/<user_name>/<repo_name>
-sample-code: $<repo_name>.card-sample-code
+github: https://github.com/heulitig/test-card-1
+sample-code: $test-card-1.card-sample-code

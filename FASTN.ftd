@@ -1,11 +1,11 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: heulitig.github.io/test-card-1
+favicon: /-/heulitig.github.io/test-card-1/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/business-card
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
+-- fastn.auto-import: heulitig.github.io/test-card-1/assets
 
 -- fastn.sitemap:
 

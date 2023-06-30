@@ -1,5 +1,5 @@
 -- import: fastn-community.github.io/business-card/docs
--- import: <user_name>.github.io/<repo_name>
+-- import: heulitig.github.io/test-card-1
 
 ;; home-card component arguments (with default values) ----------------------
 ;; caption name:
@@ -20,15 +20,15 @@
 ;; optional string website
 ;; --------------------------------------------------------------------------
 
--- docs.home-card: <user_name>
-package-name: <repo_name>
-package-full-name: <user_name>.github.io/<repo_name>
-license-url: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
+-- docs.home-card: heulitig
+package-name: test-card-1
+package-full-name: heulitig.github.io/test-card-1
+license-url: https://github.com/heulitig/test-card-1/blob/main/LICENSE
 title: Software Developer
 phone-no: +123-4567890
-email: <user_name>@xyz.com
+email: heulitig@xyz.com
 address: 123 Anywhere, Any City
-github: https://github.com/<user_name>/<repo_name>
+github: https://github.com/heulitig/test-card-1
 
 ;; ---------------- DEFINE YOUR CARD COMPONENTS -----------------------
 ;; Implement your card and card-back components below
@@ -86,19 +86,19 @@ optional string website:
 
 -- string card-sample-code:
 
-\-- import: <user_name>.github.io/<repo_name> as b
+\-- import: heulitig.github.io/test-card-1 as b
 
 \-- ftd.image-src default-card-logo: $assets.files.assets.ipsum-logo.svg
 
-\-- b.card: <user_name>
+\-- b.card: heulitig
 title: Software Developer
-email: <user_name>@xyz.com
+email: heulitig@xyz.com
 address: 123 Anywhere, Any City
 logo: $default-card-logo
 
 -- string card-back-sample-code:
 
-\-- import: <user_name>.github.io/<repo_name> as b
+\-- import: heulitig.github.io/test-card-1 as b
 
 \-- ftd.image-src default-card-logo: $assets.files.assets.ipsum-logo.svg
 
